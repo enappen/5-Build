@@ -123,4 +123,13 @@ footer {
     img {
         max-width: 800px;
     }
+
+    .card-row {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .card-row section {
+        max-width: 800px;
+    }
 }
