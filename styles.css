@@ -82,6 +82,10 @@ aside {
     padding: 1rem;
 }
 
+aside a {
+    max-width: 200px;
+}
+
 a {
     display:block;
     background-color:#020617;
@@ -109,3 +113,14 @@ footer {
 /* target the nav and display it flex, spaceed around */
 /* target the .card-row to display flex */
 /* target the sections in .card-row witha width for 30% */
+@media screen and (min-width:800px) {
+    nav ul {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    img {
+        max-width: 800px;
+    }
+}
